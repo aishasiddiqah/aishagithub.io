@@ -1,0 +1,39 @@
+/*add bg color to body and header (black)*/
+
+body{
+    height: 100%;
+}
+
+header{
+    h1{
+        text-align: center;
+    }
+
+    ul{
+        text-align: center;
+    }
+
+    li{
+        display: inline;
+    }
+}
+
+#slogan{
+    background-image: url(slogan\ image.jpg); /*add the image to a folder (all images in one folder of folders of their own within their respective folders)*/
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /*??? what this do?*/
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    color: #ffffff;
+
+    h1{
+        background-color: gray;
+        opacity: 90%;
+    }
+}
