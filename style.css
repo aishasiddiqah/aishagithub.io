@@ -33,7 +33,10 @@ header{
     color: #ffffff;
 
     h1{
-        background-color: rgba(169, 169, 169, 50%); /* use rgb(0,0,0,opacity) */
-        opacity: 90%;
+        background-color: rgba(169, 169, 169, 80%); /* use rgb(0,0,0,opacity) */
     }
+}
+
+#menuHome{
+
 }
