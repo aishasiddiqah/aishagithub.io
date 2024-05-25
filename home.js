@@ -10,6 +10,8 @@ function scrollFunction() {
     }
 }
 
-function topFunction() {
+function top() {
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+scrollFunction()
