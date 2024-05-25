@@ -94,19 +94,24 @@ header{
     filter: brightness(.7);
     transform: scale(.98);
 }
-   
 
-#slogan{
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/salad.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     position: relative;
     height: 100%;
+
+}
+
+.slogan{
+    position: absolute;
+    top: 50%;
+    left: 50%;
     text-align: center;
+    transform: translate(-50%,-50%);
     color: #ffffff;
-    
-    h1{
-        background-color: aqua;
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
 
 
