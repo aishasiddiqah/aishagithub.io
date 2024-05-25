@@ -115,7 +115,7 @@ header{
 }
 
 
-#menu{ 
+/*#menu{ 
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -125,7 +125,11 @@ header{
         padding-right: 20px;
         float: left;
     }
-}
+}*/
+
+#title{}
+
+#images{}
 
 .expand{
     float: right;
