@@ -96,12 +96,12 @@ header{
 }
 
 .banner{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/salad.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 100%;
+    height: 90%;
 
 }
 
@@ -115,14 +115,20 @@ header{
 }
 
 
-/*#menu{ 
+#menu{ 
     display: flex;
     justify-content: center;
     gap: 10px;
     width: 32rem;
+
+    h1{
+        padding-right: 20px;
+        float: left;
+    }
 }
 
 .expand{
+    float: right;
     position: relative;
     border-radius: 5px;
     height: 33rem;
@@ -134,8 +140,24 @@ header{
         height: 28rem;
         object-fit: cover;
     }
+
+    button{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      
+    }
 }
 
 .expand:hover{
     flex: 1 2 0;
-}*/
+}
