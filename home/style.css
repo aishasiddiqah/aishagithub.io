@@ -156,3 +156,18 @@ header.change{
         opacity: 1;
     }
 }
+
+#about{
+    h1{
+        float: right;
+        margin-top: 10%;
+        margin-right: 10%;
+        color: #ffffff;
+        font-size: 80px;
+    }
+
+    img{
+        width: 50%;
+        height: auto;
+    }
+}
