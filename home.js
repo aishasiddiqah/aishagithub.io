@@ -1,17 +1,11 @@
-let mybutton = document.getElementById("top");
+document.addEventListener('scroll', () => {
+  const header = document.querySelector('header');
 
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      mybutton.style.display = "block";
-    } else {
-      mybutton.style.display = "none";
-    }
+  if (window.scrollY > 0){
+      header.classList.add('scrolled') //change scrolled name and add it as a class in css
+  }
+  else{
+      header.classList.remove('scrolled')
+  }
 }
-
-function top() {
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
-
-scrollFunction()
+);
