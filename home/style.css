@@ -72,8 +72,8 @@ header{
 keep this in case it's needed*/
 
 #menu{
-    padding-top: 50px;
     height: 90%;
+    padding-top: 50px;
     padding-right: 10%;
     padding-left: 10%;
     background-color: #560963;
@@ -81,12 +81,15 @@ keep this in case it's needed*/
 
 #title{
     float: left;
+    margin-top: 15%;
+    margin-left: 5%;
     color: #ffffff;
     font-size: 80px;
     text-align: center;
 }
 
-#images{
+#images{ /* id for the images in the menu section that will display the menu */
+    margin-right: 5%;
     display: flex;
     float: right;
     gap: 10px;
@@ -94,7 +97,7 @@ keep this in case it's needed*/
     /*background-color: aqua; this works, but set the height in menu to 100% then*/
 }
 
-.expand{
+.expand{ /* the id for the images for displaying the menu on the home page */
     float: right;
     position: relative;
     border-radius: 5px;
@@ -128,6 +131,6 @@ keep this in case it's needed*/
     }*/
 }
 
-.expand:hover{
-    flex: 1 2 0;
+.expand:hover{ /* when mouse pointer is hovered over the expanding menu cards */
+    flex: 1 2 0; /* the length of all the cards will be the same when the mouse hovers over the cards */
 }
