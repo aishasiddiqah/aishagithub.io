@@ -17,10 +17,13 @@ body{
 }
 
 header{
+    width: 100%;
     background-color: #000000;
     color: #ffffff;
-    padding: 10px;
-    margin: 5px;
+    padding: 20px;
+
+    position: fixed;
+    z-index: 1;
 
     h1{
         text-align: center;
@@ -56,21 +59,6 @@ header{
     color: #ffffff;
 }
 
-
-/*#menu{ 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 10px;
-    width: 32rem;
-
-    h1{
-        padding-right: 20px;
-        float: left;
-    }
-}   
-keep this in case it's needed*/
-
 #menu{
     height: 90%;
     padding-top: 50px;
@@ -88,7 +76,7 @@ keep this in case it's needed*/
     text-align: center;
 }
 
-#images{ /* id for the images in the menu section that will display the menu */
+.menuCards{ /* class for the images in the menu section that will display the menu */
     margin-right: 5%;
     display: flex;
     float: right;
@@ -111,7 +99,7 @@ keep this in case it's needed*/
         object-fit: cover;
     }
 
-    /*button{
+    button{ /*make it prettier, it's ugly and also link it once menu pg is done*/
         position: absolute;
         top: 70%;
         left: 50%;
@@ -127,10 +115,18 @@ keep this in case it's needed*/
         color: #ffffff;
         background-color: rgba(0, 0, 0, 0.7);
         font-size: large;
-      
-    }*/
+        opacity: 0;
+    }
 }
 
 .expand:hover{ /* when mouse pointer is hovered over the expanding menu cards */
     flex: 1 2 0; /* the length of all the cards will be the same when the mouse hovers over the cards */
+
+    img{
+        opacity: 0.5;
+    }
+
+    button{
+        opacity: 1;
+    }
 }
