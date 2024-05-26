@@ -16,3 +16,7 @@ history.back(); //for going back a page
 function reload() { //for reloading pg automatically
   window.location.reload();
 }
+
+function scrollToTop(){
+  window.scrollTo(0,0);
+}
