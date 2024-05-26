@@ -37,64 +37,6 @@ header{
     }
 }
 
-#top{
-    --color: #00A97F;
-    --color2: rgb(10, 25, 30);
-    padding: 0.8em 1.75em;
-    background-color: transparent;
-    border-radius: 6px;
-    border: .3px solid var(--color);
-    transition: .5s;
-    position: absolute;
-    bottom: 0%;
-    right: 5%;
-    overflow: hidden;
-    cursor: pointer;
-    z-index: 1;
-    font-weight: 300;
-    font-size: 17px;
-    font-family: 'Roboto', 'Segoe UI', sans-serif;
-    text-transform: uppercase;
-    color: var(--color);
-}
-
-#top::after, #top::before{
-    content: '';
-    display: block;
-    height: 100%;
-    width: 100%;
-    transform: skew(90deg) translate(-50%, -50%);
-    position: absolute;
-    inset: 50%;
-    left: 25%;
-    z-index: -1;
-    transition: .5s ease-out;
-    background-color: var(--color);
-}
-
-#top::before {
-    top: -50%;
-    left: -25%;
-    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
-}
-
-#top:hover::before {
-    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
-}
-   
-#top:hover::after {
-    transform: skew(45deg) translate(-50%, -50%);
-}
-   
-#top:hover {
-    color: var(--color2);
-}
-   
-#top:active {
-    filter: brightness(.7);
-    transform: scale(.98);
-}
-
 .banner{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/banner.jpg");
     background-repeat: no-repeat;
@@ -117,6 +59,7 @@ header{
 
 /*#menu{ 
     display: flex;
+    flex-direction: row;
     justify-content: center;
     gap: 10px;
     width: 32rem;
@@ -125,11 +68,31 @@ header{
         padding-right: 20px;
         float: left;
     }
-}*/
+}   
+keep this in case it's needed*/
 
-#title{}
+#menu{
+    padding-top: 50px;
+    height: 90%;
+    padding-right: 10%;
+    padding-left: 10%;
+    background-color: #560963;
+}
 
-#images{}
+#title{
+    float: left;
+    color: #ffffff;
+    font-size: 80px;
+    text-align: center;
+}
+
+#images{
+    display: flex;
+    float: right;
+    gap: 10px;
+    width: 32rem;
+    /*background-color: aqua; this works, but set the height in menu to 100% then*/
+}
 
 .expand{
     float: right;
@@ -138,28 +101,31 @@ header{
     height: 33rem;
     overflow: hidden;
     transition: 0.5s ease-in-out;
-    flex: 0.15;
+    flex: 0.5;
 
     img{
         height: 28rem;
         object-fit: cover;
     }
 
-    button{
+    /*button{
         position: absolute;
-        top: 50%;
+        top: 70%;
         left: 50%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
-        background-color: #555;
-        color: white;
-        font-size: 16px;
-        padding: 12px 24px;
-        border: none;
+
+        padding: 5px;
+        border: 2px solid;
         cursor: pointer;
-        border-radius: 5px;
+        border-radius: 2px;
+        width: fit-content;
+        text-align: center;
+        color: #ffffff;
+        background-color: rgba(0, 0, 0, 0.7);
+        font-size: large;
       
-    }
+    }*/
 }
 
 .expand:hover{
