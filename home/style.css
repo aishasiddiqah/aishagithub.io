@@ -27,6 +27,7 @@ header{
 
     h1{
         text-align: center;
+        padding-bottom: 5px;
     }
 
     ul{
@@ -51,14 +52,9 @@ header{
 
 header.change{
     background-color: rgba(255, 248, 210, 0.7);
-    
 
     h1{
-        opacity: 1;
-    }
-
-    a{
-        opacity: 1;
+        color: #000000;
     }
 }
 
@@ -157,16 +153,17 @@ header.change{
     }
 }
 
-#about{
+#about{ /*add like, buttons to access the respective pgs (for the menu part too)*/
     h1{
         float: right;
-        margin-top: 10%;
+        margin-top: 12%;
         margin-right: 10%;
         color: #ffffff;
         font-size: 80px;
     }
 
     img{
+        margin-left: 7%;
         width: 50%;
         height: auto;
     }
