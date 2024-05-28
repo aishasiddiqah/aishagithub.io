@@ -1,42 +1,42 @@
-var index = 1;
-show(index);
+var slideIndex = 1;
+showSlide(slideIndex);
 
-function open() {
-  document.getElementById('lightbox').style.display = 'block';
+function openLightbox() {
+  document.getElementById('Lightbox').style.display = 'block';
 }
 
-function close() {
-  document.getElementById('lightbox').style.display = 'none';
+function closeLightbox() {
+  document.getElementById('Lightbox').style.display = 'none';
 }
 
-function change(n) {
-	show(index += n);
+function changeSlide(n) { 
+	showSlide(slideIndex += n);
 }
 
-function nextSlide(n) {
-	show(index = n);
+function toSlide(n) {
+	showSlide(slideIndex = n);
 }
 
-function show(n) {
+function showSlide(n) {
 
   const slides = document.getElementsByClassName('slide');
-  let largePreviews = document.getElementsByClassName('large-preview');
+  let modalPreviews = document.getElementsByClassName('modal-preview');
 
   if (n > slides.length) {
-    index = 1;	
+    slideIndex = 1;	
   }
   
   if (n < 1) {
-    index = slides.length;
+  	slideIndex = slides.length;
   }
 
   for (let i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
-  for (let i = 0; i < largePreviews.length; i++) {
-      largePreviews[i].className = largePreviews[i].className.replace(' active', '');
+  for (let i = 0; i < modalPreviews.length; i++) {
+      modalPreviews[i].className = modalPreviews[i].className.replace(' active', '');
   }
   
-  slides[index - 1].style.display = 'block';
-  largePreviews[index - 1].className += ' active';
+  slides[slideIndex - 1].style.display = 'block';
+  modalPreviews[slideIndex - 1].className += ' active';
 }
