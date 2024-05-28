@@ -11,12 +11,12 @@ document.addEventListener('scroll', () => {
 }
 );
   
-  //function for scrolling all the way to the top by pressing a button
+//function for scrolling all the way to the top by pressing a button
 function goBackUp() {
     window.scrollTo(0,0);
 }
   
-  //function for enabling and disabling dark mode
+//function for enabling and disabling dark mode
 function darkMode() {
     var element = document.body;
     element.classList.toggle("dark");
