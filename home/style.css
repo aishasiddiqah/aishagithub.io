@@ -28,6 +28,7 @@ header{
     h1{
         text-align: center;
         padding-bottom: 5px;
+        text-decoration: underline solid 2px;
     }
 
     ul{
@@ -40,26 +41,27 @@ header{
         text-align: center;
 
         a{
-            color: aqua;
+            color: #979494;
             text-decoration: none;
         }
 
         a:hover{
-            color: white;
+            color: #e1d6bd;
         }
     }
 }
 
 header.change{
-    background-color: rgba(230, 230, 230, 0.75);
-    h1{
-        color: #000000;
-    }
+    background-color: rgba(230, 230, 230, 0.9);
 
-    .change:hover a:hover{
-        opacity: 1;
-        color: red;
+    h1{
+        color: #36161a;
     }
+}
+
+.change:hover a:hover{
+    opacity: 1;
+    color: #8b464f;
 }
 
 
@@ -80,6 +82,7 @@ header.change{
     text-align: center;
     transform: translate(-50%,-50%);
     color: #ffffff;
+    background-color: rgba(230, 230, 230, 0.3);
 }
 
 #menu{
@@ -248,6 +251,19 @@ button{
 
     header.change{
         background-color: rgba(125, 125, 125, 0.75);
+
+        h1{
+            color: #e5d8bb;
+        }
+
+        a{
+            color: #d6c7a8;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: #8b464f;
+        }
     }
 }
 
