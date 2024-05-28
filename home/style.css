@@ -169,3 +169,70 @@ header.change{
         height: auto;
     }
 }
+
+
+.smallBox{
+    li{
+        list-style: none;
+        border:#f9f90a solid 1px;
+        width:80%;
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 15px;
+        background-color: #370341;
+        font-family: "Mate SC", serif;
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.box{
+    padding: 40px;
+    display: block;
+    margin-top: 35px;
+    background-color: #560963;
+
+    h1{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+
+.scrollTop{ /* before adding to final, change the order of things */
+    position: fixed;
+    bottom: 32px;
+    right: 40px;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.scrollTop:hover{
+    opacity: 0.5;
+}
+
+.scrollTop:active {
+    opacity: 0.3;
+}
+
+button{
+    position: fixed;
+    top: 32px;
+    right: 40px;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
