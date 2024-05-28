@@ -11,11 +11,6 @@ document.addEventListener('scroll', () => {
 }
 );
 
-history.back(); //for going back a page
-
-function reload() { //for reloading pg automatically
-  window.location.reload();
-}
 
 function goBackUp() {
   window.scrollTo(0,0);
