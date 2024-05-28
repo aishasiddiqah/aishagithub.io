@@ -140,32 +140,28 @@ footer{
 
 /* SAME FOR ALL CSS UNTIL HERE (FOR COMMENTING) */
 
-.background{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("menuImages/menu.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    height: 100%;
-}
-
 .title{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    text-align: center;
-    transform: translate(-50%,-50%);
-    color: #ffffff;
-    background-color: rgba(230, 230, 230, 0.3);
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;   
+  
+    h1{
+      margin-top: 10%;
+      font-size: 3em;
+      font-weight: bolder;
+      border-bottom: 3px solid #222;
+      margin-bottom: 3%;
+      text-align: center;
+    }
 }
 
 .intro{
-    width: 80%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 7%;
-    margin-bottom: 4%;
-        
+    margin-bottom: 8%;
+
     p{
         text-align: center;
     }
