@@ -14,6 +14,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     background-color: #EEEBDD;
+    font-family: "Montserrat", sans-serif;
 }
 
 header{
@@ -80,10 +81,12 @@ header.change{
     position: absolute;
     top: 50%;
     left: 50%;
+    font-size: 40px;
     text-align: center;
+    width: 80%;
     transform: translate(-50%,-50%);
     color: #ffffff;
-    background-color: rgba(230, 230, 230, 0.3);
+    background-color: rgba(230, 230, 230, 0.4);
 }
 
 #menu{
@@ -97,9 +100,10 @@ header.change{
     float: left;
     margin-top: 15%;
     margin-left: 5%;
-    color: #ffffff;
+    color: #000000;
     font-size: 80px;
     text-align: center;
+    text-decoration: solid overline 5px black;
 }
 
 .menuCards{ /* class for the images in the menu section that will display the menu */
@@ -168,19 +172,23 @@ header.change{
 
 #about{ /*add like, buttons to access the respective pgs (for the menu part too)*/
     background-color: #dacdb3;
+    margin-top: 25px;
 
     h1{
         float: right;
         margin-top: 12%;
-        margin-right: 10%;
-        color: #ffffff;
+        margin-right: 6%;
+        color: #000000;
         font-size: 80px;
+        font-family: "Montserrat", sans-serif;
+        text-decoration: solid overline 5px black;
     }
 
     img{
         margin-left: 7%;
         width: 50%;
         height: auto;
+        margin-bottom: -4px;
     }
 }
 
@@ -209,11 +217,15 @@ header.change{
     h1{
         margin-bottom: 20px;
         text-align: center;
+        font-size: 80px;
+        text-decoration: solid overline 5px black;
     }
 
     p{
         margin-bottom: 20px;
         text-align: center;
+        font-size: 25px;
+        font-weight: 500;
     }
 }
 
@@ -239,6 +251,8 @@ header.change{
 }
 
 button{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
     position: fixed;
     top: 32px;
     right: 40px;
@@ -260,6 +274,7 @@ button:active {
 }
 
 .dark{
+    font-family: "Montserrat", sans-serif;
     background-color: #151515;
     color: #e5d8bb;
 
