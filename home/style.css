@@ -222,15 +222,15 @@ header.change{
     bottom: 32px;
     right: 40px;
     padding: 10px 15px;
-    background-color: 666363;
+    background-color: #666363;
     color: white;
     border-radius: 8px;
-    border: #000000 3px solid;
+    border: #ffffff 3px solid;
     cursor: pointer;
     transition: all 0.5s ease 0s;
 
     .up:hover{
-        background-color: #666363;
+        opacity: 0.3;
     }
 
     .up:active {
