@@ -138,3 +138,34 @@ footer{
     font-size: 20px;
     padding: 20px;
 }
+
+.background{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("aboutImages/aboutUs.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100%;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    color: #ffffff;
+    background-color: rgba(230, 230, 230, 0.3);
+}
+
+#text{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+        
+    p{
+        text-align: center;
+    }
+}
