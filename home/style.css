@@ -125,7 +125,7 @@ header.change{
         object-fit: cover;
     }
 
-    button{ /*make it prettier, it's ugly and also link it once menu pg is done*/
+    button{
         position: absolute;
         top: 70%;
         left: 50%;
@@ -222,7 +222,7 @@ header.change{
     bottom: 32px;
     right: 40px;
     padding: 10px 15px;
-    background-color: #666363;
+    background-color: black;
     color: white;
     border-radius: 8px;
     border: #000000 3px solid;
@@ -230,7 +230,7 @@ header.change{
     transition: all 0.5s ease 0s;
 
     .up:hover{
-        opacity: 0.5;
+        background-color: #666363;
     }
 
     .up:active {
