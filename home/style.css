@@ -210,6 +210,11 @@ header.change{
         margin-bottom: 20px;
         text-align: center;
     }
+
+    p{
+        margin-bottom: 20px;
+        text-align: center;
+    }
 }
 
 .up{ /* before adding to final, change the order of things */
