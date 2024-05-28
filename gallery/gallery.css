@@ -139,12 +139,12 @@ footer{
     padding: 20px;
 }
 
-.gallery{
+.container{
     max-width: 1224px;
     width: 90%;
     margin: auto;
     padding: 40px 0;   
-
+  
     h3{
       margin-top: 7%;
       font-size: 3em;
@@ -152,162 +152,163 @@ footer{
       border-bottom: 3px solid #222;
       margin-bottom: 3%;
       text-align: center;
-    }
-}
-
-.layout{
-    display: flex;
-    gap: 20px;
-}
-
-.column{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.picture img{
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-    object-fit: cover;
-}
-
-html {
-    box-sizing: border-box;
+    } 
   }
   
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  body {
-    margin: 0;
-  }
-  
-  .preview {
-      width: 100%;
-  }
-  
-  .row {
+.gallery{
       display: flex;
-      flex-direction: row;
-      justify-content: center;
       gap: 20px;
   }
   
-  .row > .col {
-    padding: 0 8px;
+  .column{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
   }
   
-  .col { /* can be removed i think */
-     /* for the pics size before clicking */
-    width: 18%;
+  .photo img{
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
+      object-fit: cover;
   }
   
-  .large {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.85);
-  }
-  
-  .large-content {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
-    padding: 0 0 0 0;
-    width: 100%; /* for image size when opened */
-    max-width: 1200px;
-  }
-  
-  .slide { /*can be removed i think*/
-    display: none;
-  }
-  
-.image-slide { /* for image size when opened */
-    position: absolute;
-    max-width: 800px;
-    height: 98%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
+  html {
+      box-sizing: border-box;
+    }
     
-}
-  
-  .large-preview { /*can be removed i think*/
-      width: 0%;
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+    
+    body {
+      margin: 0;
+    }
+    
+    .preview {
+        width: 100%;
+    }
+    
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .row > .col {
+      padding: 0 8px;
+    }
+    
+    .col { /* can be removed i think */
+       /* for the pics size before clicking */
+      width: 18%;
+    }
+    
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.85);
+    }
+    
+    .modal-content {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+      padding: 0 0 0 0;
+      width: 100%; /* for image size when opened */
+      max-width: 1200px;
+    }
+    
+    .slide { /*can be removed i think*/
+      display: none;
+    }
+    
+  .image-slide { /* for image size when opened */
+      position: absolute;
+      max-width: 800px;
+      height: 98%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); 
+      
   }
-  
-  
-  img.preview, img.large-preview { /* REMOVE THIS */
-    opacity: 0.6;
-  }
-  
-  img.active,
-  .preview:hover,
-  .large-preview:hover { /* REMOVE THIS IF REMOVING THE PREVIOUS ONE*/
-    opacity: 1;
-  }
-  
-  img.hover-shadow {  /* KEEP IT FOR THE HOVERING INTO LARGE SIZE EFFECT */
-    transition: 0.3s;
-  }
-  
-  .hover-shadow:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  } 
-  
-  .close {
-    color: white;
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    font-size: 35px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #999;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-.last, .next{
-    cursor: pointer;
-    position: absolute;
-    top: 55%;
-    width: auto;
-    padding: 18px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none; /*can remove i think*/
-    -webkit-user-select: none; /*can remove i think*/
-    background-color: rgba(0, 0, 0, 0.5);
-}
-  
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-.last{
-    left: 0;
-    border-radius: 0 3px 3px 0;
-}
-  
-.last:hover, .next:hover{
-    background-color: gray;
-}
+    
+    .modal-preview { /*can be removed i think*/
+        width: 0%;
+    }
+    
+    
+    img.preview, img.modal-preview { /* REMOVE THIS */
+      opacity: 0.6;
+    }
+    
+    img.active,
+    .preview:hover,
+    .modal-preview:hover { /* REMOVE THIS IF REMOVING THE PREVIOUS ONE*/
+      opacity: 1;
+    }
+    
+    img.hover-shadow {  /* KEEP IT FOR THE HOVERING INTO LARGE SIZE EFFECT */
+      transition: 0.3s;
+    }
+    
+    .hover-shadow:hover {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    } 
+    
+    .close {
+      color: white;
+      position: absolute;
+      top: 25px;
+      right: 25px;
+      font-size: 35px;
+      font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: #999;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    .previous,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 55%;
+      width: auto;
+      padding: 18px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none; /*can remove i think*/
+      -webkit-user-select: none; /*can remove i think*/
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    .previous{
+      left: 0;
+      border-radius: 0 3px 3px 0;
+    }
+    
+    .previous:hover,
+    .next:hover {
+      background-color: gray;
+    }
