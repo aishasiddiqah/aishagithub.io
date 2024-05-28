@@ -1,7 +1,7 @@
 var index = 1;
 show(index);
 
-function open() { //CHANGE LIGHTBOX TO GALLERY
+function open() {
   document.getElementById('lightbox').style.display = 'block';
 }
 
@@ -9,11 +9,11 @@ function close() {
   document.getElementById('lightbox').style.display = 'none';
 }
 
-function change(n) { // CHANGE NAME TO CURRENT SLIDE 
+function change(n) {
 	show(index += n);
 }
 
-function nextSlide(n) { //NEXT SLIDE
+function nextSlide(n) {
 	show(index = n);
 }
 
