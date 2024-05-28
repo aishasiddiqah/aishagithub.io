@@ -17,6 +17,13 @@ function reload() { //for reloading pg automatically
   window.location.reload();
 }
 
-function scrollToTop(){
+function scrollToTop() {
   window.scrollTo(0,0);
 }
+
+//dark mode
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+
