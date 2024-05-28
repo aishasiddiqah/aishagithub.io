@@ -140,20 +140,26 @@ footer{
 }
 
 .background{
-    height: 40%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imagesLocation/location.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100%;
 }
 
 .title{
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 50%;
     text-align: center;
     transform: translate(-50%,-50%);
     color: #ffffff;
+    background-color: rgba(230, 230, 230, 0.3);
 }
 
 #locat{
-    width: 80%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
