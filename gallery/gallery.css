@@ -143,10 +143,10 @@ footer{
     max-width: 1224px;
     width: 90%;
     margin: auto;
-    margin-top: 6%;
     padding: 40px 0;   
 
     h3{
+      margin-top: 7%;
       font-size: 3em;
       font-weight: bolder;
       border-bottom: 3px solid #222;
