@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EEEBDD;
+}
+
+header{
+    width: 100%;
+    background-color: #3f1419;
+    color: #e5d8bb;
+    padding: 20px;
+    position: fixed;
+    z-index: 1;
+
+    h1{
+        text-align: center;
+        padding-bottom: 5px;
+        text-decoration: underline solid 2px;
+    }
+
+    ul{
+        text-align: center;
+    }
+
+    li{
+        display: inline;
+        padding: 15px;
+        text-align: center;
+
+        a{
+            color: #979494;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: #e1d6bd;
+        }
+    }
+}
+
+header.change{
+    width: 100%;
+    background-color: rgba(250, 249, 234, 0.9);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    h1{
+        color: #36161a;
+    }
+}
+
+.change:hover a:hover{
+    opacity: 1;
+    color: #8b464f;
+}
+
+.up{ /* before adding to final, change the order of things */
+    position: fixed;
+    bottom: 32px;
+    right: 40px;
+    padding: 10px 15px;
+    background-color: #666363;
+    color: white;
+    border-radius: 8px;
+    border: #000000 3px solid;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+
+    .up:hover{
+        opacity: 0.5;
+    }
+
+    .up:active {
+        opacity: 0.3;
+    }
+    
+}
+
+button{
+    position: fixed;
+    top: 32px;
+    right: 40px;
+    padding: 10px 15px;
+    background-color: #666363;
+    color: white;
+    border-radius: 8px;
+    border: #000000 3px solid;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.dark{
+    background-color: #151515;
+    color: #e5d8bb;
+
+    #about{
+        background-color: #252525;
+    }
+
+    header{
+        color: #e5d8bb;
+    }
+
+    header.change{
+        background-color: rgba(125, 125, 125, 0.75);
+
+        h1{
+            color: #e5d8bb;
+        }
+
+        a{
+            color: #d6c7a8;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: #8b464f;
+        }
+    }
+}
+
+footer{
+    background-color: #3f1419;
+    text-align: center;
+    color: #e5d8bb;
+    font-size: 20px;
+    padding: 20px;
+}
+
+/* SAME FOR ALL CSS UNTIL HERE (FOR COMMENTING) */
+
+.background{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("menuImages/menu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100%;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    color: #ffffff;
+    background-color: rgba(230, 230, 230, 0.3);
+}
+
+.intro{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 4%;
+        
+    p{
+        text-align: center;
+    }
+}
+
+.head{
+    text-align: center;
+    padding: 10px;
+    color: #561C24;
+    text-decoration: overline 3px #561C24 solid;
+}
+
+table{ /* to style the table and the elements in it */
+    font-family: "Mate SC", serif;
+    text-align: center ;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 10px;
+    border-spacing: 20px;
+
+    
+    td{
+        width: 50%;
+        text-align: center;
+        color: #6c0909;
+
+        strong{
+            font-size: 20px;
+            color: #6c0909;
+            text-decoration: overline solid 1px #6c0909;
+        }
+    }
+}
+
+.box{
+    padding: 10px;
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+#menu{
+    width: 100%;
+    
+    ul{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    li{
+        display: inline;
+        padding: 15px;
+        text-align: center;
+        text-decoration: none;
+
+        a{
+            text-decoration: none;
+            color: #6c0909;
+            font-weight: 700;
+        }
+
+        a:hover{
+            cursor: pointer;
+            text-decoration: overline 2px solid #561C24;
+        }
+    }
+}
