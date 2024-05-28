@@ -13,7 +13,7 @@ body{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #e5d8bb;
+    background-color: #EEEBDD;
 }
 
 header{
@@ -70,8 +70,7 @@ header.change{
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 90%;
-
+    height: 100%;
 }
 
 .slogan{
@@ -155,7 +154,7 @@ header.change{
 }
 
 #about{ /*add like, buttons to access the respective pgs (for the menu part too)*/
-    background-color: #fbebcc;
+    background-color: #dacdb3;
 
     h1{
         float: right;
