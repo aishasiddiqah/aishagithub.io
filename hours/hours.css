@@ -14,11 +14,12 @@ body{
     margin-left: auto;
     margin-right: auto;
     background-color: #EEEBDD;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 header{
     width: 100%;
-    background-color: #3f1419;
+    background-color: #1A4D2E;
     color: #e5d8bb;
     padding: 20px;
     position: fixed;
@@ -169,7 +170,8 @@ footer{
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 8%;
+    margin-bottom: 6%;
+    font-family: "PT Sans Narrow", sans-serif;
 
     p{
         text-align: center;
@@ -180,17 +182,21 @@ footer{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1%;
     padding-bottom: 50px;
     text-align: center;
 
-    p{
-        padding-bottom: 30px;
+    h2{
+        font-size: 40px;
+        border-top: solid 2px black;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 25px;
     }
 
-    h2{
-        padding-bottom: 25px;
-        text-decoration: overline 2px solid;
+    p{
+        padding-bottom: 30px;
+        font-family: "PT Sans Narrow", sans-serif;
     }
     
 }
