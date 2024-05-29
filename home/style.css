@@ -100,10 +100,14 @@ header.change{
     float: left;
     margin-top: 15%;
     margin-left: 5%;
-    color: #000000;
     font-size: 80px;
     text-align: center;
     text-decoration: solid overline 5px black;
+
+    a{
+        text-decoration: none;
+        color: #000000;
+    }
 }
 
 .menuCards{ /* class for the images in the menu section that will display the menu */
@@ -189,6 +193,11 @@ header.change{
         width: 50%;
         height: auto;
         margin-bottom: -4px;
+    }
+
+    a{
+        text-decoration: none;
+        color: #000000;
     }
 }
 
