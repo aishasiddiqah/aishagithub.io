@@ -14,6 +14,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     background-color: #EEEBDD;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 header{
@@ -25,6 +26,7 @@ header{
     z-index: 1;
 
     h1{
+        font-family: "Caveat", cursive;
         text-align: center;
         padding-bottom: 5px;
         text-decoration: overline solid 2px;
@@ -67,14 +69,16 @@ header.change{
 }
 
 .up{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
     bottom: 32px;
     right: 40px;
     padding: 10px 15px;
     background-color: black;
     position: fixed;
-    color: white;
+    color: #EEEBDD;
     border-radius: 8px;
-    border: #ffffff 3px solid;
+    border: #EEEBDD 3px solid;
     cursor: pointer;
     transition: all 0.5s ease 0s;
 }
@@ -89,15 +93,15 @@ header.change{
 
 button{
     font-family: "Montserrat", sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     position: fixed;
     top: 32px;
     right: 40px;
     padding: 10px 15px;
     background-color: black;
-    color: white;
+    color: #EEEBDD;
     border-radius: 8px;
-    border: #ffffff 3px solid;
+    border: #EEEBDD 3px solid;
     cursor: pointer;
     transition: all 0.5s ease 0s;
 }
@@ -169,6 +173,7 @@ footer{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 8%;
+    font-size: 18px;
 
     p{
         text-align: center;
