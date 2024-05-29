@@ -28,6 +28,7 @@ header{
         text-align: center;
         padding-bottom: 5px;
         text-decoration: overline solid 2px;
+        font-family: "Caveat", cursive;
     }
 
     ul{
@@ -38,6 +39,7 @@ header{
         display: inline;
         padding: 15px;
         text-align: center;
+        font-family: "Bebas Neue", sans-serif;
 
         a{
             color: #979494;
@@ -67,14 +69,16 @@ header.change{
 }
 
 .up{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
     bottom: 32px;
     right: 40px;
     padding: 10px 15px;
     background-color: black;
     position: fixed;
-    color: white;
+    color: #EEEBDD;
     border-radius: 8px;
-    border: #ffffff 3px solid;
+    border: #EEEBDD 3px solid;
     cursor: pointer;
     transition: all 0.5s ease 0s;
 }
@@ -89,15 +93,15 @@ header.change{
 
 button{
     font-family: "Montserrat", sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     position: fixed;
     top: 32px;
     right: 40px;
     padding: 10px 15px;
     background-color: black;
-    color: white;
+    color: #EEEBDD;
     border-radius: 8px;
-    border: #ffffff 3px solid;
+    border: #EEEBDD 3px solid;
     cursor: pointer;
     transition: all 0.5s ease 0s;
 }
@@ -155,6 +159,7 @@ footer{
     width: 90%;
     margin: auto;
     padding: 40px 0;   
+    font-family: "Bebas Neue", sans-serif;
   
     h1{
       margin-top: 10%;
@@ -171,6 +176,8 @@ footer{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 8%;
+    font-size: 18px;
+    font-family: "Bebas Neue", sans-serif;
 
     p{
         text-align: center;
@@ -228,7 +235,8 @@ table{ /* to style the table and the elements in it */
 
 #menu{
     width: 100%;
-    font-size: 20px;
+    font-size: 22px;
+    font-family: "Bebas Neue", sans-serif;
     
     ul{
         text-align: center;
