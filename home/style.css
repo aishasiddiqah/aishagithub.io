@@ -28,7 +28,7 @@ header{
     h1{
         text-align: center;
         padding-bottom: 5px;
-        text-decoration: underline solid 2px;
+        text-decoration: overline solid 2px;
     }
 
     ul{
