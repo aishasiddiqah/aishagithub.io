@@ -178,10 +178,11 @@ footer{
 }
 
 .head{
+    font-size: 30px;
     text-align: center;
     padding: 10px;
     color: #561C24;
-    margin-top: 30px;
+    margin-top: 40px;
     padding-bottom: 30px;
     border-top: #561C24 solid 3px;
     width: 50%;
@@ -190,9 +191,9 @@ footer{
 }
 
 table{ /* to style the table and the elements in it */
-    font-family: "Mate SC", serif;
+    font-family: "Caveat", cursive;
     text-align: center ;
-    font-size: 15px;
+    font-size: 18px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -227,6 +228,7 @@ table{ /* to style the table and the elements in it */
 
 #menu{
     width: 100%;
+    font-size: 20px;
     
     ul{
         text-align: center;
