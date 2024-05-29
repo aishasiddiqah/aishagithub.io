@@ -118,10 +118,6 @@ button:active {
     background-color: #151515;
     color: #e5d8bb;
 
-    #about{
-        background-color: #252525;
-    }
-
     header{
         color: #e5d8bb;
     }
@@ -130,17 +126,53 @@ button:active {
         background-color: rgba(125, 125, 125, 0.75);
 
         h1{
-            color: #e5d8bb;
+            color: #3f1419;
         }
 
         a{
-            color: #d6c7a8;
+            color: #4f1a20;
             text-decoration: none;
         }
 
         a:hover{
-            color: #8b464f;
+            color: #d6c7a8;
         }
+    }
+
+    .title{
+        h1{
+            border-bottom: 3px solid #e5d8bb;
+        }
+    }
+
+    .head{
+        color: #e5d8bb;
+        border-top: #e5d8bb solid 3px;
+    }
+
+    strong{
+        text-decoration: overline solid 1px #e5d8bb;
+        color: #e5d8bb;
+    }
+
+    td{
+        color: #e5d8bb;
+    }
+
+    #menu{
+        a{
+            color: #e5d8bb;
+        }
+
+        a:hover{
+            color: #925359;
+            text-decoration: overline 2px solid #925359;
+        }
+    }
+
+    .box{
+        background-color: #252525; 
+        border: solid 1px #e5d8bb;
     }
 }
 
