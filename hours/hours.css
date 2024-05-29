@@ -24,7 +24,6 @@ header{
     padding: 20px;
     position: fixed;
     z-index: 1;
-    
 
     h1{
         font-family: "Caveat", cursive;
@@ -117,12 +116,8 @@ button:active {
 
 
 .dark{
-    background-color: #151515;
+    background-color: #181818;
     color: #e5d8bb;
-
-    #about{
-        background-color: #252525;
-    }
 
     header{
         color: #e5d8bb;
@@ -132,16 +127,28 @@ button:active {
         background-color: rgba(125, 125, 125, 0.75);
 
         h1{
-            color: #e5d8bb;
+            color: #3f1419;
         }
 
         a{
-            color: #d6c7a8;
+            color: #4f1a20;
             text-decoration: none;
         }
 
         a:hover{
-            color: #8b464f;
+            color: #d6c7a8;
+        }
+    }
+
+    .title{
+        h1{
+            border-bottom: 3px solid #e5d8bb;
+        }
+    }
+    
+    #hours{
+        h2{
+            border-top: solid 2px #e5d8bb;
         }
     }
 }
