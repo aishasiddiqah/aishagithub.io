@@ -181,7 +181,12 @@ footer{
     text-align: center;
     padding: 10px;
     color: #561C24;
-    text-decoration: overline 3px #561C24 solid;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-top: #561C24 solid 3px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 table{ /* to style the table and the elements in it */
@@ -212,6 +217,7 @@ table{ /* to style the table and the elements in it */
     padding: 10px;
     display: block;
     width: 70%;
+    padding: 40px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
