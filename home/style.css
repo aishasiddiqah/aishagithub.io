@@ -291,7 +291,7 @@ button:active {
     opacity: 0.9;
 }
 
-.dark{ /* for styling the elements of the page when dark mode is on */
+.dark{ /* for styling certain elements of the page when dark mode is on */
     background-color: #181818;
     color: #e5d8bb;
 
