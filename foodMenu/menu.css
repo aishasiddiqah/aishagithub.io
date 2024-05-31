@@ -216,7 +216,7 @@ footer{ /* for styling the footer at the end of the page */
     }
 }
 
-.head{
+.head{ /* for styling the smaller headings at the top of every menu box section */
     font-size: 30px;
     text-align: center;
     padding: 10px;
@@ -240,12 +240,12 @@ table{ /* to style the table and the elements in it */
     border-spacing: 20px;
 
     
-    td{
+    td{ /* to style the table cells */
         width: 50%;
         text-align: center;
         color: #6c0909;
 
-        strong{
+        strong{ /* for styling the elements within the strong tag */
             font-size: 20px;
             color: #6c0909;
             text-decoration: overline solid 1px #6c0909;
@@ -253,7 +253,7 @@ table{ /* to style the table and the elements in it */
     }
 }
 
-.box{
+.box{ /* for the menu box cards that contains all the different menu categories */
     padding: 10px;
     display: block;
     width: 70%;
@@ -265,7 +265,7 @@ table{ /* to style the table and the elements in it */
     border-radius: 5px;
 }
 
-#menu{
+#menu{ /* for styling the list of menu options at the top that are linked to the respective menu categories */
     width: 100%;
     font-size: 22px;
     font-family: "Bebas Neue", sans-serif;
