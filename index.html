@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Pizza Place</title>
-    <link rel="icon" href="/home/images/favicon.png">
-    <link rel="stylesheet" href="home/style.css">
-    <script src="home/home.js"></script>
-    <style>
+    <title>The Pizza Place</title> <!-- title of the page -->
+    <link rel="icon" href="/home/images/favicon.png"> <!-- adding an image icon in the browser tab -->
+    <link rel="stylesheet" href="home/style.css"> <!-- linking the external stylesheet -->
+    <script src="home/home.js"></script> <!-- linking the javascript file -->
+    <!-- Google fonts -->
+    <style> 
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
     </style>
 </head>
@@ -27,21 +28,21 @@
         </nav>
     </header>
 
-    <section class="banner">
-        <section class="slogan">
+    <section class="banner"> <!-- hero image and slogan -->
+        <section class="slogan"> 
             <h1>Whatever the question may be, the answer is always pizza.</h1>
         </section>
     </section>
 
-        <section id="menu">
-            <section id="title">
+        <section id="menu"> <!-- menu section -->
+            <section id="title"> 
                 <h1><a href="foodMenu/menu.html">Menu</a></h1>
             </section>
 
-            <section class="menuCards">
+            <section class="menuCards"> <!-- for the expanding image cards -->
                 <figure class="expand">
                     <img src="home/images/pizza.jpg" alt="pizza">
-                    <button><a href="foodMenu/menu.html#pizza">Pizza</a></button>
+                    <button><a href="foodMenu/menu.html#pizza">Pizza</a></button> <!-- button that is linked to the respective section in the menu page -->
                 </figure>
                 <figure class="expand">
                     <img src="home/images/salad.jpg" alt="salad">
@@ -58,18 +59,18 @@
             </section>
         </section>
 
-        <section id="about">
+        <section id="about"> <!-- about section -->
             <img src="home/images/about.jpg" alt="A chef putting a pizza into a furnace">
             <h1><a href="about/about.html">About Us</a></h1>
         </section>
 
-        <section id="reviews">
+        <section id="reviews"> <!-- reviews section -->
             <section class="box smallBox">
                 <h1>
                     Customer Reviews
                 </h1>
                 <p>- Opinions of satisfied guests are the most important for us -</p>
-                <ul>
+                <ul> <!-- an unordered list for the reviews -->
                     <li>Who has not seen the giant billboard they drive!! Clearly they take pride in their business. My family truly appreciates great deals and amazing food. As a small business love seeing them giving back to the community. </li>
                     <li>Home of the Grab a Slab Tuesday. Unbeatable prices with unbelievable quality.</li>
                     <li>With amazing everyday deals look no further this is the place to go. Checks all the boxes from pizza to wings, sides and subs we have tried and loved them all.</li>
@@ -80,10 +81,10 @@
             </section>
         </section>
         
-        <section onclick="goBackUp()" class="up">Back to Top</section>
+        <section onclick="goBackUp()" class="up">BACK TO TOP</section> <!-- a button that will scroll to the top of the page when pressed -->
         
-        <footer>
-            &copy; The Pizza Place 2024 <br>
+        <footer> <!-- creates a footer -->
+            &copy; The Pizza Place 2024 <br> 
             &copy; Made by Aisha Siddiqah 2024
         </footer>
 </body>
