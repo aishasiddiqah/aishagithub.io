@@ -32,7 +32,7 @@
         <section class="heading"> <!-- for the main heading (GALLERY) -->
             <h3>GALLERY</h3>
         </section>
-        <section class="gallery">
+        <section class="gallery"> <!-- for the gallery of images -->
             <section class="column" class="row">
                 <section class="photo" class="col"> 
                     <img src="galleryImages/pics (1).jpg" onclick="openLightbox();toSlide(1)">
@@ -130,9 +130,9 @@
             </section>
         </section>
 
-        <section id="Lightbox" class="modal">
-            <span class="close pointer" onclick="closeLightbox()">&times;</span>
-            <section class="column" class="row">
+        <section id="Lightbox" class="modal"> <!-- this section contains the code for the popup images (lightbox effect) -->
+            <span class="close pointer" onclick="closeLightbox()">&times;</span> <!-- for the tiny cross at the top that will close the slide (popup image) when clicked -->
+            <section class="column" class="row"> <!-- for the images in the slides (these are the images that will popup when the user clicks on any image in the gallery) -->
                 <section class="slide" > 
                     <img class="image-slide" src="galleryImages/pics (1).jpg" onclick="openLightbox();toSlide(1)">
                 </section>
@@ -228,14 +228,14 @@
                 </section>
             </section>
 
-            <a class="previous" onclick="changeSlide(-1)">&#10094;</a>
-            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+            <a class="previous" onclick="changeSlide(-1)">&#10094;</a> <!-- when pressed, the slide will display the previous image in the gallery -->
+            <a class="next" onclick="changeSlide(1)">&#10095;</a> <!-- when pressed, the slide will display the next image in the gallery -->
         </section>
     </section>  
 
     <section onclick="goBackUp()" class="up">BACK TO TOP</section> <!-- a button that will scroll to the top of the page when pressed -->
 
-    <footer>
+    <footer> <!-- creates a footer -->
         &copy; The Pizza Place 2024 <br>
         &copy; Made by Aisha Siddiqah 2024
     </footer>
