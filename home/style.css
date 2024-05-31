@@ -4,7 +4,7 @@
 }
 
 html{ /* for the complete html page */
-    scroll-behavior: smooth; /* this will add a scroll effect */
+    scroll-behavior: smooth; /* this will add a smooth scroll effect */
     height: 100%;
 }
 
