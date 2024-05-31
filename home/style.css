@@ -1,31 +1,31 @@
-*{
+*{ /* universal selector */
     margin: 0;
     padding: 0;
 }
 
-html{
-    scroll-behavior: smooth;
+html{ /* for the complete html page */
+    scroll-behavior: smooth; /* this will add a scroll effect */
     height: 100%;
 }
 
-body{
+body{/* for the complete body section */ 
     height: 100%;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto; /* will center the elements */
+    margin-right: auto; /* will center the elements */
     background-color: #EEEBDD;
     font-family: "Bebas Neue", sans-serif;
 }
 
-header{
+header{ /* for styling the header */
     width: 100%;
     background-color: #3f1419;
     color: #e5d8bb;
     padding: 20px;
-    position: fixed;
+    position: fixed; /* to keep the header place even when the page is scrolled */
     z-index: 1;
 
-    h1{
+    h1{ /* for the title/name of the brand (The Pizza Place) */
         font-family: "Caveat", cursive;
         text-align: center;
         padding-bottom: 5px;
@@ -36,7 +36,7 @@ header{
         text-align: center;
     }
 
-    li{
+    li{ /* for the items in the nav list */
         display: inline;
         padding: 15px;
         text-align: center;
@@ -46,13 +46,13 @@ header{
             text-decoration: none;
         }
 
-        a:hover{
+        a:hover{ /* items in the nav list when hovered */
             color: #e1d6bd;
         }
     }
 }
 
-header.change{
+header.change{ /* for the changes in the header when the page is scrolled */
     width: 100%;
     background-color: rgba(250, 249, 234, 0.9);
     padding-top: 10px;
@@ -63,13 +63,13 @@ header.change{
     }
 }
 
-.change:hover a:hover{
+.change:hover a:hover{ /* for the changes in the header's nav links when the page is scrolled */
     opacity: 1;
     color: #8b464f;
 }
 
 
-.banner{
+.banner{ /* for the hero image */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,7 +78,7 @@ header.change{
     height: 100%;
 }
 
-.slogan{
+.slogan{ /* for the text on the hero image */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -90,14 +90,14 @@ header.change{
     background-color: rgba(230, 230, 230, 0.4);
 }
 
-#menu{
+#menu{  /* for the menu section */
     height: 85%;
     padding-top: 50px;
     padding-right: 10%;
     padding-left: 8%;
 }
 
-#title{
+#title{ /* for the title in the menu section */
     float: left;
     margin-top: 15%;
     font-size: 80px;
@@ -105,22 +105,21 @@ header.change{
     border-top: solid 5px black;
     width: 350px;
 
-    a{
+    a{ /* the title is linked to the menu page, this will style the title link */
         text-decoration: none;
         color: #000000;
     }
 }
 
-.menuCards{ /* class for the images in the menu section that will display the menu */
+.menuCards{ /* class for the expanding images in the menu section that will display the menu */
     margin-right: 5%;
     display: flex;
     float: right;
     gap: 10px;
     width: 32rem;
-    /*background-color: aqua; this works, but set the height in menu to 100% then*/
 }
 
-.expand{ /* the id for the images for displaying the menu on the home page */
+.expand{ /* the id for the expanding images for displaying the menu on the home page */
     float: right;
     position: relative;
     border-radius: 5px;
@@ -134,7 +133,7 @@ header.change{
         object-fit: cover;
     }
 
-    button{
+    button{ /* for styling the buttons that appear when the user hovers over an image */
         position: absolute;
         font-family: "Bebas Neue", sans-serif;
         top: 70%;
@@ -150,7 +149,7 @@ header.change{
         color: #ffffff;
         background-color: rgba(0, 0, 0, 0.7);
         font-size: large;
-        opacity: 0;
+        opacity: 0; /* this will hide the button until the user hovers over an image */
 
         a{
             text-decoration: none;
@@ -159,15 +158,15 @@ header.change{
     }
 }
 
-.expand:hover{ /* when mouse pointer is hovered over the expanding menu cards */
-    flex: 1 2 0; /* the length of all the cards will be the same when the mouse hovers over the cards */
+.expand:hover{ /* for the expansion of the images when mouse pointer is hovered over the expanding menu cards */
+    flex: 1 2 0;
 
     img{
         opacity: 0.5;
     }
 
     button{
-        opacity: 1;
+        opacity: 1; /* this will display the button */
 
         a{
             text-decoration: none;
@@ -176,11 +175,11 @@ header.change{
     }
 }
 
-#about{ /*add like, buttons to access the respective pgs (for the menu part too)*/
+#about{ /* for styling the about us section */
     background-color: #dacdb3;
     margin-top: 52px;
 
-    h1{
+    h1{ /* for styling the title of the section */
         float: right;
         margin-top: 13%;
         margin-right: 6%;
@@ -192,7 +191,7 @@ header.change{
         text-align: center;
     }
 
-    img{
+    img{ /* for styling the image in this section */
         margin-left: 7%;
         width: 50%;
         height: auto;
@@ -206,7 +205,7 @@ header.change{
 }
 
 
-.smallBox{
+.smallBox{ /* for styling the small review boxes that contain the reviews */
     li{
         list-style: none;
         width:80%;
@@ -222,13 +221,13 @@ header.change{
     }
 }
 
-.box{
+.box{ /* for styling the customer reviews section */
     padding: 40px;
     display: block;
     margin-top: 35px;
     text-align: center;
 
-    h1{
+    h1{ /* styles the title of the section */
         margin-bottom: 20px;
         text-align: center;
         margin-left: auto;
@@ -238,7 +237,7 @@ header.change{
         width: 650px;
     }
 
-    p{
+    p{ /* styles the written text */
         margin-bottom: 20px;
         text-align: center;
         font-size: 25px;
@@ -246,14 +245,14 @@ header.change{
     }
 }
 
-.up{
+.up{ /* styling the button that scrolls to the top of the page when pressed */
     font-family: "Montserrat", sans-serif;
     font-size: 12px;
-    bottom: 32px;
-    right: 40px;
+    bottom: 32px; /* for placing the button near the bottom of the page */
+    right: 40px; /* for adjusting the position of the button at the bottom-right of the page */
     padding: 10px 15px;
     background-color: black;
-    position: fixed;
+    position: fixed; /* for keeping the button in place at all times, even when the page is scrolled */
     color: #EEEBDD;
     border-radius: 8px;
     border: #EEEBDD 3px solid;
@@ -269,12 +268,12 @@ header.change{
     opacity: 0.9;
 }
 
-button{
+button{ /* styling the dark mode button */
     font-family: "Montserrat", sans-serif;
     font-size: 12px;
-    position: fixed;
-    top: 32px;
-    right: 40px;
+    position: fixed; /* for keeping the button in place even when scrolling*/
+    top: 32px; /* for setting the position of the button at the top of the page */
+    right: 40px; /* for adjusting the position of the button at the top right of the page*/
     padding: 10px 15px;
     background-color: black;
     color: #EEEBDD;
@@ -292,11 +291,11 @@ button:active {
     opacity: 0.9;
 }
 
-.dark{
+.dark{ /* for styling the elements of the page when dark mode is on */
     background-color: #181818;
     color: #e5d8bb;
 
-    #about{
+    #about{ /* for the about us section */
         background-color: #252525;
     
     a{
@@ -304,11 +303,11 @@ button:active {
     }
     }
 
-    header{
+    header{ /* for the header */
         color: #e5d8bb;
     }
 
-    header.change{
+    header.change{ /* for the header when the page is scrolled */
         background-color: rgba(125, 125, 125, 0.75);
 
         h1{
@@ -326,7 +325,7 @@ button:active {
     }
 }
 
-footer{
+footer{ /* for styling the footer at the end of the page */
     background-color: #3f1419;
     text-align: center;
     color: #e5d8bb;
