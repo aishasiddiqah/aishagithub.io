@@ -294,9 +294,11 @@ button:active {
 .dark{ /* for styling certain elements of the page when dark mode is on */
     background-color: #181818;
     color: #e5d8bb;
+    border-top: solid 5px #e5d8bb;
 
     #about{ /* for the about us section */
         background-color: #252525;
+        border-top: solid 5px #e5d8bb;
     
     a{
         color: #e5d8bb;
@@ -304,6 +306,8 @@ button:active {
     }
 
     #menu{
+        border-top: solid 5px #e5d8bb;
+
         a{
             color: #e5d8bb;
         }
