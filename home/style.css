@@ -298,15 +298,20 @@ button:active {
 
     #about{ /* for the about us section */
         background-color: #252525;
-        border-top: solid 5px #e5d8bb;
+
+        h1{
+            border-top: solid 5px #e5d8bb;
+        }
     
-    a{
-        color: #e5d8bb;
-    }
+        a{
+            color: #e5d8bb;
+        }
     }
 
     #menu{
-        border-top: solid 5px #e5d8bb;
+        h1{
+            border-top: solid 5px #e5d8bb;
+        }
 
         a{
             color: #e5d8bb;
