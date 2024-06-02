@@ -299,8 +299,14 @@ button:active {
         background-color: #252525;
     
     a{
-        color: #88AB8E;
+        color: #e5d8bb;
     }
+    }
+
+    #menu{
+        a{
+            color: #e5d8bb;
+        }
     }
 
     header{ /* for the header */
